@@ -19,6 +19,10 @@ h2 {
     /*background-color: red;*/
 }
 
+.header {
+    font: 16px "Lobster", serif;
+}
+
 .frame {
     white-space: nowrap;
 }
