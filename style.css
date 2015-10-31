@@ -1,0 +1,51 @@
+p {
+	font: 20px "Fauna One", sans-serif;
+	font-size: 16px;
+}
+
+div {
+	vertical-align: middle
+}
+
+
+h1 {
+	font: 200px "Crete Round", serif;
+	text-align: center;
+
+}
+
+.content {
+	padding-top: 135px;
+}
+
+.navbar {
+    /*width: 100%;*/
+    margin-left: auto ;
+    margin-right: auto ;
+    /*background-color: #ABCDEF;*/
+}
+.navbar ul {
+    /*list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    /*margin: 0 auto;*/
+    padding: 0px;
+    /*border:1px solid red;*/
+    /*display:table;*/
+    /*overflow: hidden;*/
+}
+.navbar li{
+    float: left;
+    padding: 2px;
+    width: 150px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+/*.divider-vertical {
+    height: 50px;
+    width: auto;
+    margin: auto;
+    border-left: 1px solid black;
+    /*border-right: 1px solid red;*/
+  /*  text-align:center;
+}*/
