@@ -3,17 +3,17 @@ var mainApp = angular.module("mainApp", ['ngRoute']);
 mainApp.config(function($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'home.html',
+            templateUrl: 'pages/home.html',
             // controller: 'ctrl'
         })
         .when('/about', {
-            templateUrl:'about.html',
+            templateUrl:'pages/about.html',
         })
         .when('/projects', {
-            templateUrl: 'projects.html',
+            templateUrl: 'pages/projects.html',
         })
         .when('/contact', {
-            templateUrl: 'contact.html',
+            templateUrl: 'pages/contact.html',
         })
         // .when('/projects/cachinginspark', {
         //     templateUrl: 'project-caching-spark.html'
@@ -27,4 +27,5 @@ mainApp.config(function($routeProvider) {
         .otherwise({
             redirectTo: '/'
         });
+    
 });

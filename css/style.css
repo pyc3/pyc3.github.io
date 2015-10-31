@@ -7,7 +7,6 @@ div {
 	vertical-align: middle
 }
 
-
 h1 {
 	font: 200px "Crete Round", serif;
 	text-align: center;
@@ -38,14 +37,11 @@ h2 {
     padding: 30px;
     /*background: gray;*/
     border-radius: 20px;
-    /*float:left;
-    width: 30%;*/
 }
 
 .courses {
     font: 15px "Questrial", serif;
 }
-
 
 /*Change icon colors.*/
 /*.fa {
