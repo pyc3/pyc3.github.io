@@ -22,8 +22,94 @@
   </nav>
 
   <!-- Content -->
-  <div class="content">
-    <p>my projects </p>
+  <div class="row content">
+    <a href="" ng-click="cache=!cache">
+      <div class="proj col-xs-6 col-sm-3">
+        <h2>CACHING IN APACHE SPARK</h2>
+        <br>
+        <br>
+        <p ng-show="cache">
+          Implemented disk-based hash partitioning and in-memory caching using Scala, Apache Spark, and Vagrant.
+        </p>
+      </div>
+    </a>
+
+    <a href="" ng-click="digit=!digit">
+      <div class="proj col-xs-6 col-sm-3">
+        <h2>DIGIT RECOGNITION</h2>
+        <br>
+        <br>
+        <p ng-show="digit">
+          Used OpenMP and SSE intrinsics to parallelize and optimize program that rotates, flips, and transposes templates over images to recognize digits.
+        </p>
+      </div>
+    </a>
+
+    <a href="" ng-click="pink=!pink">
+      <div class="proj col-xs-6 col-sm-3">
+        <h2>PINKTHINK</h2>
+        <br>
+        <br>
+        <p ng-show="pink">
+          Designed and implemented submission for the frontend interface for young girls to get a taste of coding at the 2015 Qualcomm Women EmpowHerMent Summit Hackathon.
+        </p>
+      </div>
+    </a>
+
+    <a href="" ng-click="firewall=!firewall">
+      <div class="proj col-xs-6 col-sm-3">
+        <h2>BASIC FIREWALL</h2>
+        <br>
+        <br>
+        <p ng-show="firewall">
+          Implemented basic stateless and stateful firewall in Linux-based virtual  machine to  filter  packets by IP addresses and port numbers.
+        </p>
+        </p>
+      </div>
+    </a>
+
+    <!-- <a href="#/projects/cachinginspark">
+      <div class="proj">
+        caching in apache spark
+      </div>
+    </a>
+    <br>
+    <a href="#/projects/digitrecognition">
+      <div class="proj">
+        digit recognition
+      </div>
+    </a>
+    <br>
+    <a href="#/projects/pinkthink">
+      <div class="proj">
+        pinkthink
+      </div>
+    </a> -->
+
+    <!-- <p>my projects </p> -->
   </div>
+
+  <!-- <div class="row content">
+    <a href="" ng-click="d = !d">
+      <div class="fixedheight proj col-xs-6 col-sm-3">
+        caching in apache spark
+        <p ng-show="d"> show this </p>
+      </div>
+    </a>
+
+    <a href="" ng-click="e = !e">
+      <div class="proj col-xs-6 col-sm-3">
+        digit recognition
+        <p ng-show="e"> show this </p>
+      </div>
+    </a>
+
+    <a href="" ng-click="f = !f">
+      <div class="proj col-xs-6 col-sm-3">
+        pinkthink
+        <p ng-show="f"> show this </p>
+      </div>
+    </a>
+  </div> -->
 
 </div>

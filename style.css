@@ -14,38 +14,52 @@ h1 {
 
 }
 
+h2 {
+    font: 30px "Slabo 27px", serif;
+    text-align: center;
+    /*background-color: red;*/
+}
+
+.frame {
+    white-space: nowrap;
+}
+
+.inbl {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
 .content {
 	padding-top: 135px;
 }
 
-.navbar {
-    /*width: 100%;*/
-    margin-left: auto ;
-    margin-right: auto ;
-    /*background-color: #ABCDEF;*/
-}
-.navbar ul {
-    /*list-style-type: none; /*to remove bullets*/
-    text-align: center;
-    /*margin: 0 auto;*/
-    padding: 0px;
-    /*border:1px solid red;*/
-    /*display:table;*/
-    /*overflow: hidden;*/
-}
-.navbar li{
-    float: left;
-    padding: 2px;
-    width: 150px;
-    margin-left: auto ;
-    margin-right: auto ;
+.proj {
+    padding: 30px;
+    /*background: gray;*/
+    border-radius: 20px;
+    /*float:left;
+    width: 30%;*/
 }
 
-/*.divider-vertical {
-    height: 50px;
-    width: auto;
-    margin: auto;
-    border-left: 1px solid black;
-    /*border-right: 1px solid red;*/
-  /*  text-align:center;
+
+/*Change icon colors.*/
+/*.fa {
+  color: black;
 }*/
+
+/*Justify navbar-nav to span full width of navbar. */
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+}
